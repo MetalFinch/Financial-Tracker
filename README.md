@@ -74,15 +74,5 @@ iii. Report Generation: Totals for income and expenses are calculated by iterati
 - Output: None (frees memory)
 - Description: Frees each node in the linked list to avoid memory leaks.
 
-### 5. Testing Documentation
-
- Test Case                                     Description                                           Expected Result                       
-|-------------------------------------|-----------------------------------------|-------------------------------------------|
-| Add Transaction                     | Add a new income transaction               |Transaction appears in report             |
-| Delete Transaction                  | Delete a transaction by index              | Transaction no longer appears in report   |
-| Edit Transaction                    | Edit an existing transaction             | Modified transaction appears in report    |
-| Generate Report                     | Calculate income and expense totals     | Correct totals and balance are displayed  |
-| Save and Load                       | Data is saved and reloaded from file    | All changes persist after reload                        
-
 
 
